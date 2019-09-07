@@ -11,7 +11,10 @@ public class GrandmasDessertStore {
 	public static void main(String[] arg) {
 		Dessert dessert = DessertFactory.createDessert("ApplePie");
 		dessert.cost();
-		System.out.print(dessert.cost());
+		System.out.println(dessert.getDescription() + " $" + dessert.cost()
+		+ "| GP Earned: " + dessert.GrandmaPoints());
+		
+
 	}
 	
 	/*
