@@ -14,7 +14,10 @@ public class GrandmasDessertStore {
 		System.out.println(dessert.getDescription() + " $" + dessert.cost()
 		+ "| GP Earned: " + dessert.GrandmaPoints());
 		
-
+		dessert = DessertFactory.createDessert("ChocolateMountain");
+		dessert.cost();
+		System.out.println(dessert.getDescription() + " $" + dessert.cost()
+		+ "| GP Earned: " + dessert.GrandmaPoints());
 	}
 	
 	/*
