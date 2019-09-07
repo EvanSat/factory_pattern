@@ -1,7 +1,7 @@
 
 public class DessertFactory {
 	
-	public Dessert createDessert(String type) {
+	public static Dessert createDessert(String type) {
 		Dessert dessert = null;
 		
 		if(type.equals("ApplePie")) {

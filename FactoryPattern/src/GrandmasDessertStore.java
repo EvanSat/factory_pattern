@@ -8,6 +8,13 @@
 
 public class GrandmasDessertStore {
 	
+	public static void main(String[] arg) {
+		Dessert dessert = DessertFactory.createDessert("ApplePie");
+		dessert.cost();
+		System.out.print(dessert.cost());
+	}
+	
+	/*
 	DessertFactory factory;
 	
 	public GrandmasDessertStore(DessertFactory factory) {
