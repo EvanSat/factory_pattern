@@ -1,7 +1,7 @@
 /***
  * 
  * CPSC 60000
- * Programming Assignment #1 - Decorators
+ * Programming Assignment #2 - Factory 
  * @author Evan Sabado
  *
  */
