@@ -20,5 +20,4 @@ public class GrandmasDessertStore {
 		+ "| GP Earned: " + dessert.GrandmaPoints());
 	}
 	
-	
 }
